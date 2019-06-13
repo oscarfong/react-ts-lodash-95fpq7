@@ -1,10 +1,3 @@
-class FuncSet1 {
-
-  constructor(props) {
-    //super(props);
-    
-  }
-}
 
 
 export function testNum ( a:number) :number{
@@ -12,4 +5,3 @@ export function testNum ( a:number) :number{
 }
 
 
-export default {FuncSet1};
