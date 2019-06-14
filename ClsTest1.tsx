@@ -17,10 +17,14 @@ class TimeExcel {
   time : number
 }
 
-class ResourceBase extends ResourceTypeBase {
+export class ResourceBase extends ResourceTypeBase {
   TimeCreated: TimeExcel
 
-  
+  constructor(){
+    super();
+    
+  }
+
 }
 
 
@@ -30,3 +34,5 @@ function testBox() {
    
 
 }
+
+//export default ResourceBase;

@@ -5,6 +5,8 @@ import './style.css';
 
 import {testNum} from './funcSet1';
 
+import {DealerAutoAdvanced} from './Transaction';
+
 interface AppProps { }
 interface AppState {
   name: string;
@@ -21,6 +23,9 @@ class App extends Component<AppProps, AppState> {
 
   //Typescript
   greeter(person: string) {
+
+      var r1i  = new DealerAutoAdvanced();
+
       return "Hello, " + person;
   }
 
